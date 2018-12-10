@@ -81,16 +81,16 @@ int main(int argc, char *argv[])
 //#endif
 
     // Log settings
-    Monero::Wallet::init(argv[0], "masari-wallet-gui");
+    Monero::Wallet::init(argv[0], "bittrader-wallet-gui");
 //    qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);
 
     qDebug() << "app startd";
 
-    app.setApplicationName("masari-gui");
-    app.setOrganizationDomain("getmasari.org");
-    app.setOrganizationName("masari-project");
+    app.setApplicationName("bittrader-gui");
+    app.setOrganizationDomain("bittrader.io");
+    app.setOrganizationName("bittrader-project");
 
     #if defined(Q_OS_LINUX) && !defined(Q_OS_ANDROID)
     app.setWindowIcon(QIcon(":/images/appicon.ico"));
@@ -238,7 +238,7 @@ int main(int argc, char *argv[])
 
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Masari/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Bittrader/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 
@@ -249,7 +249,7 @@ int main(int argc, char *argv[])
         accountName = qgetenv("USERNAME"); // Windows
     }
     if (accountName.isEmpty()) {
-        accountName = "My masari Account";
+        accountName = "My bittrader Account";
     }
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);

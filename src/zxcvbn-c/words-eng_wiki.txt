@@ -66740,7 +66740,7 @@ draftees           600
 livid              600
 refutes            600
 sigil              600
-msr                600
+trd                600
 incarnated         599
 swarmed            599
 porteno            599
@@ -75378,7 +75378,7 @@ conquistadores     491
 furthers           491
 melds              491
 frohlich           491
-msrp               491
+trdp               491
 arauco             491
 peterman           491
 kanta              491
