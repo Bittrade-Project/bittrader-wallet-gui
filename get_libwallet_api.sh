@@ -1,5 +1,5 @@
 #!/bin/bash
-MONERO_URL=https://github.com/masari-project/masari.git
+MONERO_URL=https://github.com/bittrade-project/bittrader.git
 MONERO_BRANCH=master
 
 pushd $(pwd)
