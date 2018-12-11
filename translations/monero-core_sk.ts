@@ -1912,8 +1912,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 TRD and add a 0.0025 TRD to support Monero development.</source>
-        <translation>Pre každú transakciu sa účtuje malý poplatok za transakciu. Táto možnosť Vám umožní pridať ďalšiu sumu, ktorá predstavuje percento z tohto poplatku, k Vašej transakcii na podporu vývoja softvéru Monero. Napríklad 50% auto-donácia vezme transakčný poplatok 0,005 TRD a pridá 0,0025 TRD na podporu vývoja softvéru Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 BITTRADER and add a 0.0025 BITTRADER to support Monero development.</source>
+        <translation>Pre každú transakciu sa účtuje malý poplatok za transakciu. Táto možnosť Vám umožní pridať ďalšiu sumu, ktorá predstavuje percento z tohto poplatku, k Vašej transakcii na podporu vývoja softvéru Monero. Napríklad 50% auto-donácia vezme transakčný poplatok 0,005 BITTRADER a pridá 0,0025 BITTRADER na podporu vývoja softvéru Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>

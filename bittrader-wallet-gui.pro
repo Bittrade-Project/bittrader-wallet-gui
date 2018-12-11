@@ -199,7 +199,7 @@ win32 {
     }
 
     # WIN64 Target settings
-    contains(MSYS_HOST_ARCH, x86_64) {
+    contains(QMAKE_HOST.arch, x86_64) {
         MSYS_MINGW_PATH=/mingw64
 
     # WIN32 Target settings
@@ -243,7 +243,7 @@ win32 {
         -lIphlpapi \
         -lgdi32
     
-    !contains(MSYS_HOST_ARCH, x86_64) {
+    !contains(QMAKE_TARGET.arch, x86_64) {
         message("Target is 32bit")
         ## Windows x86 (32bit) specific build here
         ## there's 2Mb stack in libwallet allocated internally, so we set stack=4Mb
@@ -434,8 +434,7 @@ macx {
 win32 {
     deploy.commands += windeployqt $$sprintf("%1/%2/%3.exe", $$OUT_PWD, $$DESTDIR, $$TARGET) -release -qmldir=$$PWD
     # Win64 msys2 deploy settings
-    MSYS_HOST_ARCH = $$system(uname -a | grep -o "x86_64")
-    contains(MSYS_HOST_ARCH, x86_64) {
+    contains(QMAKE_HOST.arch, x86_64) {
         deploy.commands += $$escape_expand(\n\t) $$PWD/windeploy_helper.sh $$DESTDIR
     }
 }

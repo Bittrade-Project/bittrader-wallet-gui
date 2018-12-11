@@ -110,7 +110,7 @@ Rectangle {
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
                     "of privacy protection Bittrader uses.<br>" +
                     "To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new " +
-                    "transactions. Such a list is maintained by the Bittrader project and is available on the bittrader.io website, " +
+                    "transactions. Such a list is maintained by the Bittrader project and is available on the getbittrader.org website, " +
                     "and you can import this list here.<br>" +
                     "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Bittrader clones) yourself " +
                     "using the bittrader-blockchain-blackball tool to create a list of known spent outputs.<br>"

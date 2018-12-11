@@ -1922,8 +1922,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 TRD and add a 0.0025 TRD to support Monero development.</source>
-        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをモネロの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 TRDであった場合、0.0025 TRDが開発チームへの寄付として取引に上乗せされます。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 BITTRADER and add a 0.0025 BITTRADER to support Monero development.</source>
+        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをモネロの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 BITTRADERであった場合、0.0025 BITTRADERが開発チームへの寄付として取引に上乗せされます。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -2338,12 +2338,12 @@ Ringsize: </source>
     <message>
         <location filename="../main.qml" line="819"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>このアドレスは%1TRDを受け取りましたが、取引はまだ承認されていません。</translation>
+        <translation>このアドレスは%1BITTRADERを受け取りましたが、取引はまだ承認されていません。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="822"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>このアドレスは%1TRDを受け取り、その取引は%2回承認されました。</translation>
+        <translation>このアドレスは%1BITTRADERを受け取り、その取引は%2回承認されました。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="826"/>

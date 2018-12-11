@@ -89,7 +89,7 @@ int main(int argc, char *argv[])
     qDebug() << "app startd";
 
     app.setApplicationName("bittrader-gui");
-    app.setOrganizationDomain("bittrader.io");
+    app.setOrganizationDomain("getbittrader.org");
     app.setOrganizationName("bittrader-project");
 
     #if defined(Q_OS_LINUX) && !defined(Q_OS_ANDROID)

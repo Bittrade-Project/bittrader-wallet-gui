@@ -161,7 +161,7 @@ Item {
             wrapMode: Text.Wrap
             text: qsTr("For every transaction, a small transaction fee is charged. This option lets you add an additional amount, " +
                        "as a percentage of that fee, to your transaction to support Bittrader development. For instance, a 50% " +
-                       "autodonation take a transaction fee of 0.005 TRD and add a 0.0025 TRD to support Bittrader development.")
+                       "autodonation take a transaction fee of 0.005 BITTRADER and add a 0.0025 BITTRADER to support Bittrader development.")
                     + translationManager.emptyString
         }
         Column {
